@@ -8,6 +8,7 @@ Group:	 Development
 URL:     http://github.com/nemomobile/tut
 Source0: %{name}-%{version}.tar.bz2
 BuildRequires: python >= 2.7
+ExcludeArch:   aarch64
 
 %description
 TUT is a pure C++ unit test framework. Its name - TUT - stands for 
