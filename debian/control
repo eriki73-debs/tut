@@ -1,0 +1,14 @@
+Source: tut
+Section: devel
+Maintainer: Erik Inkinen <erik.inkinen@gmail.com>
+Priority: optional
+Build-Depends: git,
+               python2
+Standards-Version: 4.5.1
+
+Package: tut
+Architecture: any
+Multi-Arch: foreign
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Sailfish C++ unit test framework
